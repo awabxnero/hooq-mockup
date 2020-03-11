@@ -93,6 +93,7 @@ function App() {
                     return (
                       <div className="movieListing">
                         <img
+                         className="poster"
                           onClick={event => {
                             setMoviePoster(event.target.src);
                             getMovieInfo(movie.id);
